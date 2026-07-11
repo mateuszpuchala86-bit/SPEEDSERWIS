@@ -5,117 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kontakt — SPEEDSERWIS Sandomierz | Umów wizytę</title>
 <meta name="description" content="Skontaktuj się z SPEEDSERWIS w Sandomierzu. Eugeniusza Kwiatkowskiego 128a. Telefon: 721 657 475. Umów wizytę online przez formularz.">
+<link rel="canonical" href="https://speedserwis-sandomierz.pl/kontakt.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kontakt — SPEEDSERWIS Sandomierz">
+<meta property="og:description" content="Skontaktuj się z SPEEDSERWIS w Sandomierzu. Eugeniusza Kwiatkowskiego 128a. Telefon: 721 657 475. Umów wizytę online przez formularz.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1761040100230-8c8e6fc64638?q=80&w=1200&auto=format&fit=crop">
+<meta property="og:url" content="https://speedserwis-sandomierz.pl/kontakt.html">
+<meta property="og:locale" content="pl_PL">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kontakt — SPEEDSERWIS Sandomierz">
+<meta name="twitter:description" content="Skontaktuj się z SPEEDSERWIS w Sandomierzu. Eugeniusza Kwiatkowskiego 128a. Telefon: 721 657 475. Umów wizytę online przez formularz.">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1761040100230-8c8e6fc64638?q=80&w=1200&auto=format&fit=crop">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Barlow:wght@400;500;600&family=Barlow+Semi+Condensed:wght@500;600&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
-<style>
-  :root{
-    --graphite:#111318; --graphite-2:#191c22; --graphite-3:#1f232a;
-    --steel:#2a2e36; --line:#31363e; --line-soft:#282c33;
-    --amber:#f2a516; --amber-light:#ffc861; --amber-deep:#d98a0a;
-    --off:#f6f4ee; --muted:#9aa0a8; --muted-2:#c7ccd2; --green:#4caf6d;
-  }
-  *{margin:0;padding:0;box-sizing:border-box}
-  html{scroll-behavior:smooth}
-  body{background:var(--graphite);color:var(--off);font-family:'Barlow',system-ui,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
-  h1,h2,h3{font-family:'Oswald',sans-serif;text-transform:uppercase;line-height:1.05;letter-spacing:.01em;font-weight:600}
-  a{color:inherit;text-decoration:none}
-  img{max-width:100%;display:block}
-  .wrap{max-width:1140px;margin:0 auto;padding:0 24px}
-  .mono{font-family:'JetBrains Mono',monospace}
-  .amber{color:var(--amber)}
-  .hazard{height:6px;background:repeating-linear-gradient(-45deg,var(--amber) 0 18px,var(--graphite) 18px 36px)}
-
-  header{position:sticky;top:0;z-index:50;background:rgba(22,24,28,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-  .nav{display:flex;align-items:center;justify-content:space-between;height:70px}
-  .brand{font-family:'Oswald',sans-serif;font-weight:700;font-size:1.35rem;text-transform:uppercase;letter-spacing:.04em;display:flex;align-items:center;gap:10px}
-  .brand .spark{width:12px;height:12px;background:var(--amber);transform:skewX(-14deg);display:inline-block}
-  .nav-links{display:flex;gap:30px;align-items:center}
-  .nav-links a{font-family:'Barlow Semi Condensed',sans-serif;font-weight:600;font-size:.82rem;text-transform:uppercase;letter-spacing:.09em;color:var(--muted-2);transition:color .2s}
-  .nav-links a:hover,.nav-links a.active{color:var(--amber)}
-  .nav-call{font-family:'JetBrains Mono',monospace;font-weight:700;font-size:.9rem;background:linear-gradient(135deg,var(--amber-light),var(--amber));color:#181a1e;padding:9px 16px;border-radius:3px;transition:box-shadow .2s,transform .15s;box-shadow:0 4px 14px -4px rgba(242,165,22,.5)}
-  .nav-call:hover{transform:translateY(-1px);box-shadow:0 8px 20px -4px rgba(242,165,22,.65)}
-  .burger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:0;padding:6px}
-  .burger span{width:26px;height:2px;background:var(--off);transition:.25s}
-
-  .page-hero{position:relative;padding:64px 0 56px;overflow:hidden;isolation:isolate;border-bottom:1px solid var(--line)}
-  .page-hero-bg{position:absolute;inset:0;z-index:-2;background-image:url('https://images.unsplash.com/photo-1486684228606-cb318871a9f6?q=80&w=1800&auto=format&fit=crop');background-size:cover;background-position:center;filter:saturate(.8) brightness(.4);transform:scale(1.04)}
-  .page-hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(100deg,rgba(17,19,24,.95) 0%,rgba(17,19,24,.75) 60%,rgba(17,19,24,.85) 100%)}
-  .breadcrumb{font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
-  .breadcrumb a:hover{color:var(--amber-light)}
-  .page-hero h1{font-size:clamp(2.1rem,5vw,3.2rem);max-width:16ch}
-  .page-hero p{color:var(--muted-2);margin-top:16px;max-width:56ch;font-size:1.08rem}
-
-  section{padding:80px 0}
-  .sec-tag{font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--amber-light);display:flex;align-items:center;gap:10px;margin-bottom:14px}
-  .sec-tag::before{content:"";width:24px;height:1px;background:var(--amber)}
-
-  .contact-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:48px}
-  .info-block{margin-bottom:16px;padding:20px 22px;border-radius:8px;background:rgba(255,255,255,.02);border:1px solid var(--line-soft);transition:border-color .2s,background .2s}
-  .info-block:hover{border-color:rgba(242,165,22,.3);background:rgba(242,165,22,.03)}
-  .info-block .lbl{font-family:'JetBrains Mono',monospace;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--amber-light);margin-bottom:6px;display:block}
-  .info-block .val{font-family:'Oswald',sans-serif;font-size:1.35rem;color:var(--off);text-transform:none;letter-spacing:0}
-  .info-block .val a:hover{color:var(--amber-light)}
-  .info-block .val.addr{font-size:1.15rem;line-height:1.35}
-  .hours-note{font-size:.9rem;color:var(--muted);margin-top:4px}
-
-  .map-embed{border-radius:8px;overflow:hidden;border:1px solid var(--line);margin-top:20px;height:220px}
-  .map-embed iframe{width:100%;height:100%;border:0;filter:grayscale(.3) invert(.92) contrast(.9)}
-
-  form{background:linear-gradient(160deg,var(--graphite-3),var(--graphite));border:1px solid var(--line);border-radius:10px;padding:34px 32px;box-shadow:0 24px 60px -24px rgba(0,0,0,.6)}
-  .field{margin-bottom:19px}
-  .field label{display:block;font-family:'Barlow Semi Condensed',sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.06em;font-size:.78rem;color:var(--muted-2);margin-bottom:7px}
-  .field input,.field textarea{width:100%;background:rgba(0,0,0,.22);border:1px solid var(--line);border-radius:5px;color:var(--off);font-family:'Barlow',sans-serif;font-size:1rem;padding:13px 15px;transition:border-color .2s,box-shadow .2s}
-  .field input:focus,.field textarea:focus{outline:none;border-color:var(--amber);box-shadow:0 0 0 3px rgba(242,165,22,.15)}
-  .field textarea{resize:vertical;min-height:120px}
-
-  .btn{display:inline-flex;align-items:center;gap:10px;font-family:'Barlow Semi Condensed',sans-serif;font-weight:600;text-transform:uppercase;letter-spacing:.06em;font-size:.95rem;padding:16px 28px;border-radius:3px;cursor:pointer;border:1px solid transparent;transition:transform .15s,box-shadow .25s,background .2s,border-color .2s}
-  .btn-primary{background:linear-gradient(135deg,var(--amber-light),var(--amber));color:#181a1e;box-shadow:0 8px 24px -6px rgba(242,165,22,.5)}
-  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 30px -6px rgba(242,165,22,.65)}
-  .btn-ghost{background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.18);color:var(--off)}
-  .btn-ghost:hover{border-color:var(--amber);color:var(--amber-light)}
-  form .btn-primary{width:100%;justify-content:center;font-size:1rem;margin-top:8px;padding:17px 26px}
-  .form-foot{font-size:.8rem;color:var(--muted);margin-top:14px;text-align:center}
-
-  /* FAQ */
-  #faq{background:linear-gradient(180deg,var(--graphite-2),var(--graphite-3));border-top:1px solid var(--line)}
-  .faq-item{border-bottom:1px solid var(--line);padding:20px 0}
-  .faq-item:first-child{padding-top:0}
-  .faq-item summary{cursor:pointer;font-family:'Oswald',sans-serif;font-weight:600;font-size:1.05rem;list-style:none;display:flex;justify-content:space-between;align-items:center;text-transform:none}
-  .faq-item summary::-webkit-details-marker{display:none}
-  .faq-item summary::after{content:"+";color:var(--amber-light);font-size:1.4rem;font-family:'JetBrains Mono',monospace;transition:transform .2s}
-  .faq-item[open] summary::after{transform:rotate(45deg)}
-  .faq-item p{color:var(--muted-2);margin-top:12px;font-size:.98rem;max-width:64ch}
-
-  footer{background:var(--graphite);border-top:1px solid var(--line);padding:44px 0 38px}
-  .foot-grid{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;align-items:center}
-  .foot-brand{font-family:'Oswald',sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:.04em;font-size:1.1rem}
-  .foot-grid p,.foot-grid a{color:var(--muted);font-size:.88rem}
-  .foot-grid a:hover{color:var(--amber)}
-  .foot-nav{display:flex;gap:22px;flex-wrap:wrap}
-  .copy{font-family:'JetBrains Mono',monospace;font-size:.78rem;color:var(--muted);margin-top:26px;padding-top:22px;border-top:1px solid var(--line)}
-
-  .fab-call{display:none;position:fixed;bottom:20px;right:20px;z-index:60;width:58px;height:58px;border-radius:50%;background:linear-gradient(135deg,var(--amber-light),var(--amber));align-items:center;justify-content:center;box-shadow:0 10px 30px -6px rgba(242,165,22,.6);animation:fabPulse 2.4s infinite}
-  .fab-call svg{width:24px;height:24px;stroke:#181a1e;fill:none;stroke-width:2}
-  @keyframes fabPulse{0%,100%{box-shadow:0 10px 30px -6px rgba(242,165,22,.6)}50%{box-shadow:0 10px 30px -2px rgba(242,165,22,.85)}}
-  @media (prefers-reduced-motion:reduce){.fab-call{animation:none}}
-
-  .reveal{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
-  .reveal.in{opacity:1;transform:none}
-  @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
-
-  @media(max-width:900px){.contact-grid{grid-template-columns:1fr;gap:36px}}
-  @media(max-width:680px){
-    .nav-links{position:fixed;inset:70px 0 auto 0;flex-direction:column;gap:0;background:var(--graphite-2);border-bottom:1px solid var(--line);padding:8px 0;transform:translateY(-140%);transition:transform .28s}
-    .nav-links.open{transform:none}
-    .nav-links a{padding:14px 24px;width:100%;border-top:1px solid var(--line)}
-    .nav-links .nav-call{margin:12px 24px;text-align:center}
-    .burger{display:flex}
-    section{padding:52px 0}
-    .page-hero{padding:48px 0 40px}
-    .fab-call{display:flex}
-  }
-</style>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -136,7 +41,7 @@
 </header>
 
 <section class="page-hero">
-  <div class="page-hero-bg"></div>
+  <div class="page-hero-bg" style="background-image:url('https://images.unsplash.com/photo-1761040100230-8c8e6fc64638?q=80&w=1800&auto=format&fit=crop')"></div>
   <div class="wrap">
     <div class="breadcrumb"><a href="index.html">Strona główna</a> / Kontakt</div>
     <h1>Opisz usterkę —<br>oddzwonimy z terminem</h1>
@@ -167,6 +72,7 @@
       </div>
     </div>
 
+    <!-- TODO: formularz nie działa — podmienić na docelowy adres Formspree (lub inny endpoint) przed publikacją -->
     <form action="https://formspree.io/f/PLACEHOLDER" method="POST" class="reveal">
       <div class="field">
         <label for="name">Imię</label>
@@ -233,13 +139,6 @@
 
 <a href="tel:721657475" class="fab-call" aria-label="Zadzwoń: 721 657 475"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a>
 
-<script>
-  document.getElementById('year').textContent = new Date().getFullYear();
-  const burger=document.getElementById('burger'),menu=document.getElementById('menu');
-  burger.addEventListener('click',()=>menu.classList.toggle('open'));
-  menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>menu.classList.remove('open')));
-  const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.12});
-  document.querySelectorAll('.reveal').forEach((el,i)=>{el.style.transitionDelay=(i%3*70)+'ms';io.observe(el);});
-</script>
+<script src="main.js" defer></script>
 </body>
 </html>
